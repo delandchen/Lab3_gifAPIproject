@@ -112,7 +112,3 @@ const populateGifs = (arr) => {
 // Event Listeners
 submitFormElement.addEventListener("submit", fetchApiResults);
 showMoreButtonElement.addEventListener("click", fetchAdditionalResults);
-
-
-// Onload Function
-window.onload = fetchTrendingResults;
